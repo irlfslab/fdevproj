@@ -1,7 +1,7 @@
 $(document).ready(function(data){
  $("#getJsonSrc").click(function() {
    //get JSON file
- var jqxhr = $.getJSON( "https://raw.githubusercontent.com/skyastro/fdev/master/proj/assets/files/class.json", function(data) {
+ var jqxhr = $.getJSON( "https://skyastro.github.io/fdevproj/assets/files/class.json", function(data) {
     var class_data = '';
     var head_count = 0;
     $('#tdata td').remove();
