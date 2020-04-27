@@ -20,6 +20,7 @@ Users of the website would be the fans for doing exercise. The information of ex
 - Navigation can be accessed through the top and bottom of the page and is consistent on every page.<br>
 - User can find the navigation links, contact details and social media icons at the footer.  It is consistent on every page.
 <br>
+
 ## Technologies used in web development
 
 - #### HTML5
