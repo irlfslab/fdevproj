@@ -31,6 +31,8 @@ $('#signup_fname').on('input', function() {
     }
 });
 
+
+
 $('#signup_lname').on('input', function() {
     var val=$(this).val();
     validate(val, "name")
@@ -42,6 +44,8 @@ $('#signup_lname').on('input', function() {
         $(this).removeClass("valid").addClass("invalid");
     }
 });
+
+
 
 $('#signup_phone').on('input', function() {
     var val=$(this).val();
@@ -55,6 +59,8 @@ $('#signup_phone').on('input', function() {
     }       
 });
 
+
+
 $('#signup_email').on('input', function() {
     var val=$(this).val();
     validate(val, "email")
@@ -67,15 +73,31 @@ $('#signup_email').on('input', function() {
     }
  });
 
+
  $('#signup_password').on('input', function() {
+     var password = ""
+     var repassword = ""
     if ($(this).val().length >= 8) {
         $(this).removeClass("invalid").addClass("valid");
-        $(this).siblings('div').addClass("msg");  
+        $(this).siblings('div').addClass("msg"); 
+        $('#signup_repassword').siblings('div').addClass("msg");
+        var repassword = $("#signup_repassword").val();
+        if (repassword != "") {
+            var password = $("#signup_password").val();
+            if (password == repassword ) {
+                $('#signup_repassword').removeClass("invalid").addClass("valid");
+                $('#signup_repassword').siblings('div').addClass("msg");
+            } else {
+                $('#signup_repassword').removeClass("valid").addClass("invalid");
+                $('#signup_repassword').siblings('div').removeClass("msg");
+            }
+        }
     }
 	else{
         $(this).removeClass("valid").addClass("invalid");
     }
  });
+
 
  $('#signup_repassword').on('input', function() {
     var password = $("#signup_password").val();
@@ -85,9 +107,10 @@ $('#signup_email').on('input', function() {
         $(this).siblings('div').addClass("msg");
     } else {
         $(this).removeClass("valid").addClass("invalid");
+        $(this).siblings('div').removeClass("msg");
     }
  });
-	
+
 // Form submit
 $("#signup").on('submit', function(){
 	var form_data=$("#signup").serializeArray();
@@ -104,6 +127,7 @@ $("#signup").on('submit', function(){
             error_element.removeClass("error_show").addClass("msg");
         }
 	}
+
 	if (!error_free){
 		event.preventDefault(); 
     }
