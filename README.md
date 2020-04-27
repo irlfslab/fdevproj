@@ -55,4 +55,4 @@ All links were manually tested.  All external links include "target=_blank" so t
 ### Media
 - The photos used in this site are from [pexels](https://www.pexels.com/), [unplash](https://unplash.com), [pxhere](https://pxhere.com)<br>
 - The video used in this site is from [Youtube](https://www.youtube.com/).
-- The map is ued from [openstreetmap](https://openstreetmap.org)
+- The map is used from [openstreetmap](https://openstreetmap.org)
