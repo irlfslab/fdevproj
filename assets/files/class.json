@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Barre",
+        "day": "Monday - Friday",
+        "time": "7:00am - 8:00am",
+        "place": "Studio A"
+    },
+    {
+        "name": "CardioFit",
+        "day": "Monday - Friday",
+        "time": "8:00am - 9:00am",
+        "place": "Studio B"
+    },
+    {
+        "name": "Cycle",
+        "day": "Monday - Friday",
+        "time": "9:00am - 10:00am",
+        "place": "Studio C"
+    },
+    {
+        "name": "Interval Running Training",
+        "day": "Monday - Friday",
+        "time": "10:00pm - 11:00pm",
+        "place": "Studio A"
+    },
+    {
+        "name": "Pilates",
+        "day": "Monday - Friday",
+        "time": "11:00am - 12:00am",
+        "place": "Studio B"
+    },
+    {
+        "name": "Ropes & Rowers",
+        "day": "Monday - Friday",
+        "time": "2:00pm - 3:00pm",
+        "place": "Studio C"
+    },
+    {
+        "name": "Stretch",
+        "day": "Monday - Friday",
+        "time": "3:00pm - 4:00pm",
+        "place": "Studio A"
+    },
+    {
+        "name": "Tabata",
+        "day": "Monday - Friday",
+        "time": "4:00pm - 5:00pm",
+        "place": "Studio B"
+    },
+    {
+        "name": "Yoga",
+        "day": "Monday - Friday",
+        "time": "5:00pm - 6:00pm",
+        "place": "Studio C"
+    },
+    {
+        "name": "Zumba",
+        "day": "Monday - Friday",
+        "time": "6:00pm - 7:00pm",
+        "place": "Studio A"
+    },
+    {
+        "name": "Barre",
+        "day": "Saturday - Sunday",
+        "time": "9:00am - 10:00am",
+        "place": "Studio A"
+    },
+    {
+        "name": "Zumba",
+        "day": "Saturday - Sunday",
+        "time": "8:00am - 9:00am",
+        "place": "Studio A"
+    },
+    {
+        "name": "Yoga",
+        "day": "Saturday - Sunday",
+        "time": "9:00am - 10:00am",
+        "place": "Studio B"
+    },
+    {
+        "name": "Tabata",
+        "day": "Saturday - Sunday",
+        "time": "10:00am - 11:00am",
+        "place": "Studio C"
+    },
+    {
+        "name": "Stretch",
+        "day": "Saturday - Sunday",
+        "time": "11:00am - 12:00am",
+        "place": "Studio A"
+    },
+    {
+        "name": "Pilates",
+        "day": "Saturday - Sunday",
+        "time": "2:00pm - 3:00pm",
+        "place": "Studio B"
+    },
+    {
+        "name": "Interval Running Training",
+        "day": "Saturday - Sunday",
+        "time": "3:00pm - 4:00pm",
+        "place": "Studio C"
+    },
+    {
+        "name": "Cycle",
+        "day": "Saturday - Sunday",
+        "time": "4:00pm - 5:00pm",
+        "place": "Studio A"
+    },
+    {
+        "name": "CardioFit",
+        "day": "Saturday - Sunday",
+        "time": "5:00pm - 6:00pm",
+        "place": "Studio B"
+    },
+    {
+        "name": "Ropes & Rowers",
+        "day": "Saturday - Sunday",
+        "time": "5:00pm - 6:00pm",
+        "place": "Studio C"
+    }
+]

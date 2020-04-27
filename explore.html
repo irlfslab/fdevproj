@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fitness Health Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container-fluid navalert-container">
+    
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a class="navbar-brand" href="#">
+                <a href="#" class="navbar-brand">Fitness Health Club</a>
+            </a>
+            
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>  
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="#">Explore</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="class.html">Class</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid callout-container1 bkg">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">Free one day pass</h1>
+                    <button id="freebtn" class="btn btn-lg btn--free btn--red" data-toggle="modal" data-target="#freeModal">Try for free!</button>
+                    <p class="text-muted"><small>You must be a local resident over 18 to sign up to our service.</small></p> 
+                </section>
+            </div>
+        </div>  
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="freeModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Free one day pass</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <form id="session" action="https://formdump.codeinstitute.net/" method="post">
+                          <div class="form-group form-row">
+                            <div class="col">
+                                <label for="session_fname">First Name</label>
+                                <input type="text" class="form-control" id="session_fname" name="fname" placeholder="First name" required>
+                                <small class="text-muted">
+                                  Must be 2-20 characters long.
+                                </small>
+                                <div>
+                                   <span class="msg">Valid first name is required</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label for="session_lname">Last Name</label>
+                                <input type="text" class="form-control" id="session_lname" name="lname" placeholder="Last name" required>
+                                <small class="text-muted">
+                                  Must be 2-20 characters long.
+                                </small>
+                                <div>
+                                  <span class="msg">Valid last name is required</span>
+                                </div>
+                            </div>
+                          </div>
+                        <br/>
+                        <div class="form-row">
+                            <label for="session_email">Email address</label>
+                            <input type="email" class="form-control" id="session_email" name="email"  placeholder="Enter email" required>
+                            <span class="msg">Valid email address is required</span>
+                        </div>
+                        <br/>
+
+                        <div class="form-row">
+                            <div class="col-auto my-1">
+                              <label class="mr-sm-2" for="session_select">Preference</label>
+                              <select class="custom-select mr-sm-2" id="session_select" name="select" value="Gym facilities" required>
+                                <option value="Gym facilities">Gym facilities</option> 
+                              </select>
+                            </div>
+                        </div>
+                        <br/>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+     <section>
+      <div class="row">
+          <div class="col-12 my-5">
+              <h2 class="text-uppercase">Over 100 cardio and strength equipment</h2>
+              <hr />
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-12 col-md-6">       
+              ​<picture>
+                <img src="assets/images/equip1.jpg" class="rounded img-fluid img-thumbnail" alt="equip image 1" height=350>
+              </picture>  
+              <br>
+          </div>
+          
+          <div class="col-12 col-md-6">
+              ​<picture>
+                <img src="assets/images/equip2.jpg" class="img-fluid img-thumbnail" alt="equip image 2" height=350>
+              </picture>
+          </div>  
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+            ​<picture>
+              <img src="assets/images/equip3.jpg" class="rounded img-fluid img-thumbnail" alt="equip image 3" height=350>
+            </picture>  
+            <br>
+        </div>
+        
+        <div class="col-12 col-md-6">
+            ​<picture>
+              <img src="assets/images/equip4.jpeg" class="img-fluid img-thumbnail" alt="equip image 4" height=350>
+            </picture>
+        </div>  
+    </div>
+
+      <div class="row">
+        <div class="col-12 my-5">
+            <h2 class="text-uppercase">Over 60 fitness classes in a week</h2>
+            <hr />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="media">
+                ​<picture>
+                    <img src="assets/images/class1.jpg" class="rounded img-fluid img-thumbnail" alt="class image 1" height=350>
+                </picture>
+                <br>
+                
+            </div>
+            <br>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="media">
+               <picture>
+                <img src="assets/images/class2.jpg" class="rounded img-fluid img-thumbnail" alt="class image 2" height=350>
+               </picture>     
+            </div>
+        </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 col1 m-mb-30 s-mb-30">
+                    <h5>Fitness Health Club</h5>
+                    <p>Toronto - 220A Yonge St</p>
+                    <p>Scarborough - 300A Borough Dr</p>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-12 col2 m-mb-30 s-mb-30">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="explore.html">Explore</a></li>
+                        <li><a href="class.html">Class</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 col3 m-mb-30 s-mb-30">  
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><i class="fa fa-phone"></i>123-456-789</li>
+                        <li><i class="fa fa-envelope"></i>info@fitnesshealth.com</li>
+                    </ul>  
+                    <br>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-2x social"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x social"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <p class="footer-bottom">Copyright &copy; Fitness Health Club</p>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/scripts/jq_class.js"></script>
+</body>
+
+</html>
