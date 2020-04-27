@@ -31,7 +31,6 @@ Users of the website would be the fans for doing exercise. The information of ex
 - #### Leaflet
 - #### Javascript
 - #### JSON file
-- #### Jasmine testing framework
 
 
 ## Testing
