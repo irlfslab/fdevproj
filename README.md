@@ -38,17 +38,20 @@ Users of the website would be the fans for doing exercise. The information of ex
 All links were manually tested.  All external links include "target=_blank" so the user can stay on the page by navigating to a external resource.
 
 <br>
+
 ### Responsiveness
 - Small devices: Top menu is collapsed and can be accessed using the "hamburger" icon on the top. The website is collapsed for smaller devices to make easier in navigation.<br>
 - Larger devices: Menu is completely visible on large screen. The page makes use of a full column range of screen size.
 
 <br>
+
 ### Tested in the following browsers:
 |Browser  | Version       | Compatibility |
 |---------|---------------|---------------|
 |Chrome   |81.0.4044.122  | Full          |
 |Firefox  |75.0           | Full          |
 |Edge     |44.18362.449.0 | Full          |
+
 <br>
 
 ## Credits
