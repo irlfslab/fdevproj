@@ -87,6 +87,7 @@ $('#signup_email').on('input', function() {
         $(this).removeClass("valid").addClass("invalid");
     }
  });
+	
 // Form submit
 $("#signup").on('submit', function(){
 	var form_data=$("#signup").serializeArray();
