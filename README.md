@@ -31,7 +31,7 @@ Users of the website would be the fans for doing exercise. The information of ex
 - #### JQuery
 - #### Leaflet
 - #### Javascript
-- #### JSON file
+- #### JSON 
 <br>
 
 ## Testing
