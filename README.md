@@ -35,8 +35,7 @@ Users of the website would be the fans for doing exercise. The information of ex
 <br>
 
 ## Testing
-Form fields and all links were manually tested.  All external links include "target=_blank" so the user can stay on the page by navigating to a external resource. <br>
-Javascript function was tested through Jasmine framework.
+Form fields and all links were manually tested.  All external links include "target=_blank" so the user can stay on the page by navigating to a external resource. Javascript function was tested through Jasmine framework.
 
 
 <br>
