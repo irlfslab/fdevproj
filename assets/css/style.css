@@ -31,6 +31,16 @@ body {
     background-size: cover;
 }
 
+.img-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 500px;
+    height: 500px;
+}
+
 .bkg {
     display: flex;
     align-items: center;
