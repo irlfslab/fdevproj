@@ -38,9 +38,9 @@ body {
 }
 .box {
     width: 500px;
-    height: 500px;
+    height: 400px;
 }
-
+.bold1 {font-weight: bold;}
 .bkg {
     display: flex;
     align-items: center;
