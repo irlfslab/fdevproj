@@ -13,22 +13,22 @@ body {
 
 .callout-container1 {
     height: 100vh;
-
     background: url('../images/bg_explore.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
 }    
 
 .callout-container {
     height: 100vh;
-
     background: url('../images/bg_class.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
 }
 
 .img-container {
