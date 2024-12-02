@@ -33,6 +33,11 @@ body {
 
 .d-img {margin-right: 5%; margin-left: 5%}
 
+.form-inline {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
 .img-container {
     margin-top: 50px;
     display: flex;
@@ -298,11 +303,7 @@ td {
 select {
     margin-left: 5%;
 }
-.display-5 {
-    font-weight: 800; 
-    margin-left: 12%; 
-    margin-top: 3%;
-}
+
 .searchtext {
     font-weight: 800;
 }
@@ -397,6 +398,10 @@ h6 {
     }
     .s-mb-30 {
         margin-bottom: 30px;
+    }
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
     }
     footer {
         text-align: center;
