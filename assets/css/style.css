@@ -31,6 +31,8 @@ body {
     background-position: center center;
 }
 
+.d-img {margin-right: 5%; margin-left: 5%}
+
 .img-container {
     margin-top: 50px;
     display: flex;
