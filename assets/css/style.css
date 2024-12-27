@@ -319,17 +319,11 @@ select {
 /* Footer */
 
 h5 {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 10px 0;
+    font-size: 1.25em;
 }
 
 h6 {
-    font-size: 12px;
-    text-transform: capitalize;
-    letter-spacing: 2px; 
-    margin: 20px 0;
+    font-size: 1em;
 }
 
 .footer-top {
