@@ -169,6 +169,12 @@ body {
     color: white;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #4755e3;
+    border-color: #007bff;
+}
+
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
